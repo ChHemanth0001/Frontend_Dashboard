@@ -1,8 +1,11 @@
 # To locally run the project in your system
   clone this project from this repository
+  
   open in your vs code editor
+  
   now run the command
-  npm start in command prompt terminal
+  
+  ### `npm start` in command prompt terminal
   
 # Getting Started with Create React App
 
