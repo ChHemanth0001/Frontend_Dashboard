@@ -1,0 +1,138 @@
+.dashboard-container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .manage-widget-button,
+  .add-widget-button {
+    position: absolute;
+    top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .manage-widget-button {
+    right: 140px; /* Adjust position */
+  }
+  
+  .add-widget-button {
+    right: 20px;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 300px;
+    height: 100%;
+    background-color: #f4f4f4;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: right 0.3s ease;
+    z-index: 100;
+  }
+  
+  .sidebar.open {
+    right: 0;
+  }
+  
+  .close-sidebar-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .new-widget-form {
+    margin-bottom: 20px;
+  }
+  
+  .new-widget-form input,
+  .new-widget-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .widget-list {
+    margin-bottom: 20px;
+  }
+  
+  .widget-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .widget-item input {
+    margin-right: 10px;
+  }
+  
+  .sidebar-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sidebar-buttons button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sidebar-buttons button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .categories-container {
+    margin-top: 60px;
+  }
+  
+  .category {
+    margin-bottom: 20px;
+  }
+  
+  .widgets {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .widget {
+    position: relative;
+    background-color: #ececec;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-widget {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  p
+  {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+  }
